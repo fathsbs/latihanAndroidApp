@@ -5,13 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:padding="@dimen/dimen24"
     tools:context=".MainActivity">
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@color/purple_200" />
 
     <View
         android:layout_width="match_parent"
@@ -23,7 +18,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/teal_200" />
+        android:background="@color/teal_700" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/purple_200" />
 
     <View
         android:layout_width="match_parent"
@@ -35,6 +36,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="@color/teal_700" />
+        android:background="@color/teal_200" />
 
 </LinearLayout>
